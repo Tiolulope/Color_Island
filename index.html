@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>software-sultan Island</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="app-container">
+        <header class="game-header">
+            <h1 class="cursor typewriter-animation">welcome to color island!</h1>
+            <p class="subtitle">Can you guess the right color?</p>
+        </header>
+
+        <div class="color-box" data-testid="colorBox">Play!</div>
+
+        <p class="game-instructions" data-testid="gameInstructions">Guess the Correct Color!</p>
+
+        <div class="color-selectors" data-testid="colorSelectors">
+            <button class="color-selector" data-testid="colorSelector"></button>
+            <button class="color-selector" data-testid="colorSelector"></button>
+            <button class="color-selector" data-testid="colorSelector"></button>
+            <button class="color-selector" data-testid="colorSelector"></button>
+            <button class="color-selector" data-testid="colorSelector"></button>
+            <button class="color-selector" data-testid="colorSelector"></button>
+        </div>
+
+        <p class="game-status" data-testid="gameStatus"></p>
+
+        <p class="score" data-testid="score">Your Score: 0</p>
+
+        <button class="new-game-button" data-testid="newGameButton">New Game</button>
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
